@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container {
+    width: 100%;
+}
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px !important;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px !important;
+    }
+}
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1124px !important;
+    }
+}
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1380px !important;
+    }
+}
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1636px !important;
+    }
+}
+
+/****fonts***/
+
+
+
+@font-face {
+    font-family: 'sstRegular';
+    src: url('../fonts/alfont_com_AlFont_com_SST-Arabic-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sstBold';
+    src: url('../fonts/alfont_com_AlFont_com_SST-Arabic-Bold-1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NeoMedium';
+    src: url('../fonts/alfont_com_SST-Arabic-Medium.ttf') format('truetype');
+    font-weight: medium;
+    font-style: normal;
+}
+
+header{
+    background: url('../img/header.svg') no-repeat center;
+    height: 100vh;
+}
